@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SkateBoard</title>
+    <link rel="stylesheet" href="./output.css">
+</head>
+
+<body>
+    <div class="flex font-sans text-white bg-gray-900">
+        <div class="flex flex-col min-h-screen w-80">
+            <div class="px-8 py-8">
+                <h1 class="text-xl font-semibold">skateboard</h1>
+            </div>
+            <div class="px-8 pt-2 -mt-10 divide-y divide-gray-800">
+                <div class="py-10"><span class="tracking-widest text-gray-500 uppercase text-xxs">Menu</span>
+                    <ul class="flex flex-col pt-5 space-y-8">
+                        <li class="flex items-center space-x-4 group"><span class="p-2 text-gray-500 bg-gray-800 rounded-xl group-hover:text-white group-hover:bg-orange"><svg width="16" height="16" fill="none" xmlns="http://www.w3.org/2000/svg" class="fill-current"><path d="M6.093 13.85V11.81c0-.52.425-.942.95-.942h1.915c.252 0 .493.099.671.276a.939.939 0 0 1 .278.666v2.039a.809.809 0 0 0 .238.577.82.82 0 0 0 .58.24h1.307a2.306 2.306 0 0 0 1.63-.666c.431-.428.674-1.01.674-1.615V6.578c0-.49-.218-.954-.597-1.268L9.293 1.784a2.065 2.065 0 0 0-2.632.048L2.314 5.31a1.65 1.65 0 0 0-.644 1.268v5.802a2.296 2.296 0 0 0 2.304 2.287H5.25a.82.82 0 0 0 .824-.812l.018-.005z"></path></svg></span>
+                            <a class="text-sm text-gray-500 group-hover:text-white group-hover:font-semibold" href="#">Discover</a>
+                        </li>
+                        <li class="flex items-center space-x-4 group"><span class="p-2 text-gray-500 bg-gray-800 rounded-xl group-hover:text-white group-hover:bg-orange"><svg width="17" height="16" fill="none" xmlns="http://www.w3.org/2000/svg" class="fill-current"><path clip-rule="evenodd" d="m7.226 8.005.001.236c.009.936.065 1.772.162 2.301 0 .01.107.535.174.71.106.252.298.466.54.602.192.097.394.146.606.146.166-.007.44-.091.636-.161l.163-.063c1.078-.428 3.138-1.827 3.927-2.682l.058-.06.26-.28c.164-.215.25-.477.25-.759 0-.252-.077-.505-.231-.71a2.388 2.388 0 0 0-.187-.222l-.253-.264c-.87-.881-2.752-2.117-3.728-2.527 0-.009-.607-.262-.895-.272H8.67a1.21 1.21 0 0 0-1.068.661c-.058.112-.114.33-.156.523l-.076.362c-.086.583-.144 1.478-.144 2.459zm-4.22-1.017c-.554 0-1.003.453-1.003 1.012 0 .559.449 1.012 1.002 1.012l2.466-.218A.79.79 0 0 0 6.258 8a.79.79 0 0 0-.787-.794l-2.466-.218z"></path></svg></span>
+                            <a class="text-sm text-gray-500 group-hover:text-white group-hover:font-semibold" href="#">Trending</a>
+                        </li>
+                        <li class="flex items-center space-x-4 group"><span class="p-2 text-gray-500 bg-gray-800 rounded-xl group-hover:text-white group-hover:bg-orange"><svg width="16" height="16" fill="none" xmlns="http://www.w3.org/2000/svg" class="fill-current"><path d="M7.487 4.86V2.189c0-.284.227-.521.513-.521.257 0 .474.199.509.45l.005.07v2.674H11.7c1.587 0 2.89 1.299 2.964 2.92l.003.143v3.36c0 1.631-1.258 2.971-2.821 3.046l-.14.004H4.295c-1.587 0-2.884-1.293-2.957-2.92l-.003-.144V7.917c0-1.631 1.252-2.977 2.814-3.053l.139-.003h3.2v4.268L6.42 8.027a.504.504 0 0 0-.726 0 .54.54 0 0 0-.147.38c0 .104.03.213.093.305l.054.066 1.94 2.01a.49.49 0 0 0 .366.158.49.49 0 0 0 .31-.11l.05-.048 1.94-2.01c.2-.207.2-.544 0-.75a.503.503 0 0 0-.669-.052l-.057.051-1.06 1.102V4.861H7.487z"></path></svg></span>
+                            <a class="text-sm text-gray-500 group-hover:text-white group-hover:font-semibold" href="#">Streaming</a>
+                        </li>
+                        <li class="flex items-center space-x-4 group"><span class="p-2 text-gray-500 bg-gray-800 rounded-xl group-hover:text-white group-hover:bg-orange"><svg width="16" height="16" fill="none" xmlns="http://www.w3.org/2000/svg" class="fill-current"><path clip-rule="evenodd" d="M8.105 11.094 10 9.181a.5.5 0 0 0-.007-.707.487.487 0 0 0-.693 0L8.25 9.541V6.327a.491.491 0 1 0-.983 0v3.214l-1.05-1.067a.487.487 0 0 0-.692 0 .507.507 0 0 0 0 .707l1.887 1.913a.512.512 0 0 0 .35.147.512.512 0 0 0 .343-.147zm4.784-5.076c.155-.002.324-.004.477-.004.172 0 .304.133.304.3v5.36c0 1.653-1.334 2.993-2.97 2.993H5.452c-1.723 0-3.116-1.406-3.116-3.14V4.341c0-1.654 1.327-3.007 2.977-3.007h3.525c.165 0 .304.14.304.307v2.146c0 1.22.99 2.22 2.204 2.227.28 0 .529.002.747.004l.448.003.348-.003zm.184-.973c-.542.002-1.182 0-1.642-.005-.73 0-1.331-.607-1.331-1.345V1.938c0-.287.345-.43.542-.223l1.945 2.043.713.749a.318.318 0 0 1-.227.538z"></path></svg></span>
+                            <a class="text-sm text-gray-500 group-hover:text-white group-hover:font-semibold" href="#">Playlist</a>
+                        </li>
+                        <li class="flex items-center space-x-4 group"><span class="p-2 text-gray-500 bg-gray-800 rounded-xl group-hover:text-white group-hover:bg-orange"><svg width="16" height="16" fill="none" xmlns="http://www.w3.org/2000/svg" class="fill-current"><path clip-rule="evenodd" d="M11.846 5.588h2.82C14.667 3.323 13.31 2 11.012 2H4.99c-2.3 0-3.656 1.323-3.656 3.559v4.882C1.334 12.677 2.69 14 4.99 14h6.02c2.3 0 3.657-1.323 3.657-3.56v-.207h-2.82c-1.31 0-2.371-1.035-2.371-2.311 0-1.277 1.061-2.311 2.37-2.311v-.023zm-.001.993h2.323c.275 0 .498.218.498.486v1.687a.498.498 0 0 1-.498.485h-2.27a1.404 1.404 0 0 1-1.392-1.063c-.076-.39.03-.794.288-1.101a1.394 1.394 0 0 1 1.05-.494zm.104 1.774h.219c.281 0 .51-.222.51-.497a.503.503 0 0 0-.51-.497h-.22a.51.51 0 0 0-.36.142.485.485 0 0 0-.149.35c0 .275.227.5.51.502zM4.493 5.588h3.763c.281 0 .51-.222.51-.497a.503.503 0 0 0-.51-.497H4.493a.504.504 0 0 0-.51.491c0 .276.228.5.51.503z"></path></svg></span>
+                            <a class="text-sm text-gray-500 group-hover:text-white group-hover:font-semibold" href="#">Bookmark</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="py-10"><span class="tracking-widest text-gray-500 uppercase text-xxs">Category</span>
+                    <ul class="flex flex-col pt-5 space-y-8">
+                        <li class="flex items-center space-x-4 group"><span class="p-2 text-gray-500 bg-gray-800 rounded-xl group-hover:text-white group-hover:bg-orange"><svg width="16" height="16" fill="none" xmlns="http://www.w3.org/2000/svg" class="fill-current"><path d="M6.093 13.85V11.81c0-.52.425-.942.95-.942h1.915c.252 0 .493.099.671.276a.939.939 0 0 1 .278.666v2.039a.809.809 0 0 0 .238.577.82.82 0 0 0 .58.24h1.307a2.306 2.306 0 0 0 1.63-.666c.431-.428.674-1.01.674-1.615V6.578c0-.49-.218-.954-.597-1.268L9.293 1.784a2.065 2.065 0 0 0-2.632.048L2.314 5.31a1.65 1.65 0 0 0-.644 1.268v5.802a2.296 2.296 0 0 0 2.304 2.287H5.25a.82.82 0 0 0 .824-.812l.018-.005z"></path></svg></span>
+                            <a class="text-sm text-gray-500 group-hover:text-white group-hover:font-semibold" href="#">Live Stream</a>
+                        </li>
+                        <li class="flex items-center space-x-4 group"><span class="p-2 text-gray-500 bg-gray-800 rounded-xl group-hover:text-white group-hover:bg-orange"><svg width="17" height="16" fill="none" xmlns="http://www.w3.org/2000/svg" class="fill-current"><path clip-rule="evenodd" d="m7.226 8.005.001.236c.009.936.065 1.772.162 2.301 0 .01.107.535.174.71.106.252.298.466.54.602.192.097.394.146.606.146.166-.007.44-.091.636-.161l.163-.063c1.078-.428 3.138-1.827 3.927-2.682l.058-.06.26-.28c.164-.215.25-.477.25-.759 0-.252-.077-.505-.231-.71a2.388 2.388 0 0 0-.187-.222l-.253-.264c-.87-.881-2.752-2.117-3.728-2.527 0-.009-.607-.262-.895-.272H8.67a1.21 1.21 0 0 0-1.068.661c-.058.112-.114.33-.156.523l-.076.362c-.086.583-.144 1.478-.144 2.459zm-4.22-1.017c-.554 0-1.003.453-1.003 1.012 0 .559.449 1.012 1.002 1.012l2.466-.218A.79.79 0 0 0 6.258 8a.79.79 0 0 0-.787-.794l-2.466-.218z"></path></svg></span>
+                            <a class="text-sm text-gray-500 group-hover:text-white group-hover:font-semibold" href="#">Tutorial</a>
+                        </li>
+                        <li class="flex items-center space-x-4 group"><span class="p-2 text-gray-500 bg-gray-800 rounded-xl group-hover:text-white group-hover:bg-orange"><svg width="16" height="16" fill="none" xmlns="http://www.w3.org/2000/svg" class="fill-current"><path d="M7.487 4.86V2.189c0-.284.227-.521.513-.521.257 0 .474.199.509.45l.005.07v2.674H11.7c1.587 0 2.89 1.299 2.964 2.92l.003.143v3.36c0 1.631-1.258 2.971-2.821 3.046l-.14.004H4.295c-1.587 0-2.884-1.293-2.957-2.92l-.003-.144V7.917c0-1.631 1.252-2.977 2.814-3.053l.139-.003h3.2v4.268L6.42 8.027a.504.504 0 0 0-.726 0 .54.54 0 0 0-.147.38c0 .104.03.213.093.305l.054.066 1.94 2.01a.49.49 0 0 0 .366.158.49.49 0 0 0 .31-.11l.05-.048 1.94-2.01c.2-.207.2-.544 0-.75a.503.503 0 0 0-.669-.052l-.057.051-1.06 1.102V4.861H7.487z"></path></svg></span>
+                            <a class="text-sm text-gray-500 group-hover:text-white group-hover:font-semibold" href="#">Competition</a>
+                        </li>
+                        <li class="flex items-center space-x-4 group"><span class="p-2 text-gray-500 bg-gray-800 rounded-xl group-hover:text-white group-hover:bg-orange"><svg width="16" height="16" fill="none" xmlns="http://www.w3.org/2000/svg" class="fill-current"><path clip-rule="evenodd" d="M8.105 11.094 10 9.181a.5.5 0 0 0-.007-.707.487.487 0 0 0-.693 0L8.25 9.541V6.327a.491.491 0 1 0-.983 0v3.214l-1.05-1.067a.487.487 0 0 0-.692 0 .507.507 0 0 0 0 .707l1.887 1.913a.512.512 0 0 0 .35.147.512.512 0 0 0 .343-.147zm4.784-5.076c.155-.002.324-.004.477-.004.172 0 .304.133.304.3v5.36c0 1.653-1.334 2.993-2.97 2.993H5.452c-1.723 0-3.116-1.406-3.116-3.14V4.341c0-1.654 1.327-3.007 2.977-3.007h3.525c.165 0 .304.14.304.307v2.146c0 1.22.99 2.22 2.204 2.227.28 0 .529.002.747.004l.448.003.348-.003zm.184-.973c-.542.002-1.182 0-1.642-.005-.73 0-1.331-.607-1.331-1.345V1.938c0-.287.345-.43.542-.223l1.945 2.043.713.749a.318.318 0 0 1-.227.538z"></path></svg></span>
+                            <a class="text-sm text-gray-500 group-hover:text-white group-hover:font-semibold" href="#">Community</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="flex flex-col w-full pl-5 pr-14 py-7">
+            <div class="flex items-center justify-between">
+                <div class="relative flex flex-1 max-w-xl"><input class="items-center w-full h-10 px-4 text-sm font-normal tracking-wider text-white placeholder-gray-500 bg-white/10 rounded-xl focus:outline-none" type="text" placeholder="Search">
+                    <div class="absolute inset-y-0 right-0 flex items-center pr-6"><svg width="16" height="16" fill="none" xmlns="http://www.w3.org/2000/svg" class="text-gray-500 stroke-current"><g opacity=".5"><path clip-rule="evenodd" d="M6.913 11.826a4.913 4.913 0 1 0 0-9.826 4.913 4.913 0 0 0 0 9.826z"></path><path d="m10.72 10.719 3.087 3.088"></path></g></svg></div>
+                </div>
+                <div class="flex items-center"><img class="w-8 h-8 rounded-full" src="./img/avatar-1.png" alt=""><a class="inline-flex items-center pl-4" href="#"><span class="text-xs font-normal tracking-widest">Thomas</span><svg width="20" height="20" fill="none" xmlns="http://www.w3.org/2000/svg" class="text-gray-500 fill-current"><path d="m10 13.094 5.008-5.008-1.177-1.18L10 10.74 6.17 6.907 4.992 8.085 10 13.095z"></path></svg></a>
+                    <button class="pl-8 p-0.5 relative"><svg width="20" height="20" fill="none" xmlns="http://www.w3.org/2000/svg" class="text-gray-500 fill-current"><path clip-rule="evenodd" d="M15.59 7.33c0 1.047.276 1.664.885 2.375.46.523.608 1.196.608 1.925 0 .728-.239 1.42-.718 1.982a3.78 3.78 0 0 1-2.417 1.177c-1.31.112-2.62.206-3.948.206-1.328 0-2.637-.056-3.947-.206a3.777 3.777 0 0 1-2.417-1.177 3.013 3.013 0 0 1-.72-1.982c0-.73.149-1.402.61-1.925.627-.711.886-1.328.886-2.375v-.355c0-1.401.35-2.318 1.069-3.215C6.55 2.45 8.266 1.667 9.963 1.667h.075c1.733 0 3.504.822 4.556 2.187.682.879.995 1.757.995 3.121v.355zM7.56 16.717c0-.42.386-.611.742-.694.416-.088 2.955-.088 3.371 0 .357.082.742.275.742.694-.021.4-.255.754-.58.979-.42.327-.912.535-1.427.61a3.157 3.157 0 0 1-.84 0 3.015 3.015 0 0 1-1.428-.61c-.325-.225-.559-.58-.58-.979z"></path></svg>
+                            <span
+                                class="absolute top-0 w-2 h-2 bg-red-500 border border-gray-900 rounded-full right-1"></span>
+                                </button>
+                </div>
+            </div>
+            <div class="pt-10">
+                <h2 class="text-4xl font-semibold">Discover</h2>
+                <div class="flex space-x-6 py-7">
+                    <div class="h-96 rounded-2.5xl p-10 bg-no-repeat bg-cover overflow-hidden relative w-2/3" style="background-image: url(&quot;./img/bg-1.png&quot;);">
+                        <h3 class="text-3xl font-semibold max-w-xxs">How to do Basic Jumping and how to landing safely</h3>
+                        <div class="flex flex-wrap-reverse items-center pt-4 pr-24">
+                            <div class="relative flex items-center justify-center rounded-full w-14 h-14"><img class="w-12 h-12 rounded-full" src="./img/avatar-3.png" alt=""><span class="absolute inset-0 border rounded-full border-white/50"></span><svg width="16" height="16" fill="none" xmlns="http://www.w3.org/2000/svg" class="absolute bottom-0 right-0"><rect x="1" y="1" width="14" height="14" rx="7" fill="#fff" stroke="#0DAABC" stroke-width="2"></rect><path d="m6.172 8.328 1.414 1.415 2.828-2.829" stroke="#0DAABC" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"></path></svg></div>
+                            <div class="flex flex-col py-4 pl-2"><a class="font-medium tracking-wider" href="#">Thomas Hope</a><span class="text-xs tracking-wider text-white/80">53K views • 2 weeks ago</span></div>
+                        </div><span class="px-2 py-0.5 absolute right-5 bottom-5 rounded-lg bg-gray-900/50 text-xxs">7 min</span></div>
+                    <div class="h-96 rounded-2.5xl p-10 bg-no-repeat bg-cover overflow-hidden relative w-1/3" style="background-image: url(&quot;./img/bg-2.png&quot;);">
+                        <h3 class="text-3xl font-semibold max-w-xxs">Skateboard Tips You need to know</h3>
+                        <div class="flex flex-wrap-reverse items-center pt-4 pr-24">
+                            <div class="relative flex items-center justify-center rounded-full w-14 h-14"><img class="w-12 h-12 rounded-full" src="./img/avatar-2.png" alt=""><span class="absolute inset-0 border rounded-full border-white/50"></span><svg width="16" height="16" fill="none" xmlns="http://www.w3.org/2000/svg" class="absolute bottom-0 right-0"><rect x="1" y="1" width="14" height="14" rx="7" fill="#fff" stroke="#E6B97A" stroke-width="2"></rect><path d="m6.172 8.328 1.414 1.415 2.828-2.829" stroke="#D9A45A" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"></path></svg></div>
+                            <div class="flex flex-col py-4 pl-2"><a class="font-medium tracking-wider" href="#">Tony Andrew</a><span class="text-xs tracking-wider text-white/80">52K views • 1 weeks ago</span></div>
+                        </div><span class="px-2 py-0.5 absolute right-5 bottom-5 rounded-lg bg-gray-900/50 text-xxs">10 min</span></div>
+                </div>
+            </div>
+            <div class="pt-4">
+                <h2 class="text-2xl font-medium">Most watched</h2>
+                <div class="flex justify-between py-6">
+                    <div class="w-64 rounded-2.5xl overflow-hidden relative"><img class="h-40" src="./img/bg-3.png" alt="">
+                        <div class="absolute flex items-center justify-center rounded-full right-5 top-34 w-14 h-14"><img class="w-12 h-12 rounded-full" src="./img/avatar-6.png" alt=""><span class="absolute inset-0 border rounded-full border-white/50"></span><svg width="16" height="16" fill="none" xmlns="http://www.w3.org/2000/svg" class="absolute bottom-0 right-0"><rect x="1" y="1" width="14" height="14" rx="7" fill="#08A0F7" stroke="#252836" stroke-width="2"></rect><path d="m6.172 8.328 1.414 1.415 2.828-2.829" stroke="#fff" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"></path></svg></div>
+                        <span class="px-2 py-0.5 absolute right-2 top-2 text-white rounded-lg bg-gray-900/50 text-xxs">7 min</span>
+                        <div class="px-5 py-5 bg-gray-800">
+                            <div class="flex items-center"><span class="text-xs font-normal tracking-wider text-gray-400">Andy William</span><span class="w-2 h-2 ml-2 rounded-full bg-green"></span></div>
+                            <h3 class="inline-block pt-1 font-medium leading-relaxed">Basic how to ride your skateboard comfortly</h3><span class="inline-block pt-4 text-sm tracking-wider text-gray-500">53K views • 2 weeks ago</span></div>
+                    </div>
+                    <div class="w-64 rounded-2.5xl overflow-hidden relative"><img class="h-40" src="./img/bg-7.png" alt="">
+                        <div class="absolute flex items-center justify-center rounded-full right-5 top-34 w-14 h-14"><img class="w-12 h-12 rounded-full" src="./img/avatar-4.png" alt=""><span class="absolute inset-0 border rounded-full border-white/50"></span><svg width="16" height="16" fill="none" xmlns="http://www.w3.org/2000/svg" class="absolute bottom-0 right-0"><rect x="1" y="1" width="14" height="14" rx="7" fill="#08A0F7" stroke="#252836" stroke-width="2"></rect><path d="m6.172 8.328 1.414 1.415 2.828-2.829" stroke="#fff" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"></path></svg></div>
+                        <span class="px-2 py-0.5 absolute right-2 top-2 text-white rounded-lg bg-gray-900/50 text-xxs">7 min</span>
+                        <div class="px-5 py-5 bg-gray-800">
+                            <div class="flex items-center"><span class="text-xs font-normal tracking-wider text-gray-400">Johny Wise</span><span class="w-2 h-2 ml-2 rounded-full bg-orange"></span></div>
+                            <h3 class="inline-block pt-1 font-medium leading-relaxed">Prepare for your first skateboard jump</h3><span class="inline-block pt-4 text-sm tracking-wider text-gray-500">53K views • 2 weeks ago</span></div>
+                    </div>
+                    <div class="w-64 rounded-2.5xl overflow-hidden relative"><img class="h-40" src="./img/bg-6.png" alt="">
+                        <div class="absolute flex items-center justify-center rounded-full right-5 top-34 w-14 h-14"><img class="w-12 h-12 rounded-full" src="./img/avatar-8.png" alt=""><span class="absolute inset-0 border rounded-full border-white/50"></span><svg width="16" height="16" fill="none" xmlns="http://www.w3.org/2000/svg" class="absolute bottom-0 right-0"><rect x="1" y="1" width="14" height="14" rx="7" fill="#08A0F7" stroke="#252836" stroke-width="2"></rect><path d="m6.172 8.328 1.414 1.415 2.828-2.829" stroke="#fff" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"></path></svg></div>
+                        <span class="px-2 py-0.5 absolute right-2 top-2 text-white rounded-lg bg-gray-900/50 text-xxs">7 min</span>
+                        <div class="px-5 py-5 bg-gray-800">
+                            <div class="flex items-center"><span class="text-xs font-normal tracking-wider text-gray-400">Budi Hakim</span><span class="w-2 h-2 ml-2 rounded-full bg-orange"></span></div>
+                            <h3 class="inline-block pt-1 font-medium leading-relaxed">Tips to playing skateboard on the ramp</h3><span class="inline-block pt-4 text-sm tracking-wider text-gray-500">53K views • 2 weeks ago</span></div>
+                    </div>
+                    <div class="w-64 rounded-2.5xl overflow-hidden relative"><img class="h-40" src="./img/bg-4.png" alt="">
+                        <div class="absolute flex items-center justify-center rounded-full right-5 top-34 w-14 h-14"><img class="w-12 h-12 rounded-full" src="./img/avatar-7.png" alt=""><span class="absolute inset-0 border rounded-full border-white/50"></span><svg width="16" height="16" fill="none" xmlns="http://www.w3.org/2000/svg" class="absolute bottom-0 right-0"><rect x="1" y="1" width="14" height="14" rx="7" fill="#08A0F7" stroke="#252836" stroke-width="2"></rect><path d="m6.172 8.328 1.414 1.415 2.828-2.829" stroke="#fff" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"></path></svg></div>
+                        <span class="px-2 py-0.5 absolute right-2 top-2 text-white rounded-lg bg-gray-900/50 text-xxs">7 min</span>
+                        <div class="px-5 py-5 bg-gray-800">
+                            <div class="flex items-center"><span class="text-xs font-normal tracking-wider text-gray-400">Wijaya Abadi</span><span class="w-2 h-2 ml-2 rounded-full bg-green"></span></div>
+                            <h3 class="inline-block pt-1 font-medium leading-relaxed">Basic Equipment to play skateboard safely</h3><span class="inline-block pt-4 text-sm tracking-wider text-gray-500">53K views • 2 weeks ago</span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
